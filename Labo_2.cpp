@@ -6,9 +6,24 @@
 
 int main(){
 
-float x, z;
+float x , z;
 
+/* Введення значення для x */
 printf("input value of x: ");
 scanf("%f", &x);
+
+
+/* Умови задачі */
+if (x <= 1) {
+	
+	z=sin(x);
+	printf("x<=1, then z = sin(x) = %0.6f", &z);
+	
+	} 
+	
+	else {
+	z=x-log(x);
+	printf("x>1, then z= x-ln(x) = %0.6f", &x);
+	}
 
 }
