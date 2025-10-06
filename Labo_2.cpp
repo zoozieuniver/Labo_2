@@ -8,12 +8,12 @@ int main(){
 
 float x , z;
 
-/* Введення значення для x */
+/* Input values of x */
 printf("input value of x: ");
 scanf("%f", &x);
 
 
-/* Умови задачі */
+/* Conditions of lab */
 if (x <= 1) {
 	
 	z=sin(x);
